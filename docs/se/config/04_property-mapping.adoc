@@ -121,7 +121,7 @@ contains complete details, but briefly your application can convert a structured
 
 * a `List<T>` of a given type,
 * a `Map<String, String>` in which each key is the fully qualified key `String` for a
-config entry and the value is its `String` value, or the fully qualified key of config node is used as a key in returned `Map`.
+config entry and the value is its `String` value.
 
 === Custom Conversions
 Often your code will be simpler if you can treat parts of the configuration as
